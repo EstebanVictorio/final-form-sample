@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@babel/cli": "7.5.5",
+    "@babel/core": "7.5.5",
+    "@babel/preset-env": "7.5.5",
+    "@babel/preset-flow": "7.0.0",
+    "@babel/preset-react": "7.0.0",
+    "babel-loader": "8.0.6",
+    "flow-bin": "0.107.0",
+    "flow-typed": "2.6.1",
+    "html-webpack-plugin": "3.2.0",
+    "webpack": "4.39.3",
+    "webpack-cli": "3.3.8",
+    "webpack-dev-server": "3.8.0"
+  },
+  "dependencies": {
+    "final-form": "4.18.5",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-final-form": "6.3.0"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --open",
+    "flow": "flow",
+    "ft:install": "flow-typed install"
+  }
+}
