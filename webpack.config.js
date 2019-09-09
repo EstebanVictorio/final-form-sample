@@ -17,7 +17,7 @@ const providePlugin = new webpack.ProvidePlugin({
 
 const plugins = [
     htmlWebpackPlugin,
-    providePlugin
+    // providePlugin
   ]
 
 
@@ -32,12 +32,30 @@ const moduleConf = {
               presets: ["@babel/preset-env", "@babel/preset-react", "@babel/preset-flow"]
             }
           }
+        },
+        {
+          test: /\.s[ac]ss$/i,
+          loader: [
+            {
+              loader: 'style-loader'
+            },
+            {
+              loader: 'css-loader',
+              options: {
+                modules: true,
+                localsConvention: 'camelCase'
+              }
+            },
+            {
+              loader: 'sass-loader'
+            }
+          ]
         }
       ]
 }
 
 const config = {
-    entry: path.resolve(__dirname,'index.js'),
+    entry: path.resolve(__dirname,'App.js'),
     plugins,
     module: moduleConf,
     output: {

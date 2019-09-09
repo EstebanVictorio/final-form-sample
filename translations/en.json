@@ -1,0 +1,8 @@
+{
+    "Form.greeting": "Hello {name}",
+    "Form.nameLabel": "Name:",
+    "Form.lastNameLabel": "Lastname:",
+    "Form.submitButton": "Submit your form",
+    "Form.namePlaceholder": "Your name",
+    "Form.lastNamePlaceholder": "Your lastname"
+}

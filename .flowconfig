@@ -8,4 +8,6 @@
 
 [options]
 
+module.name_mapper='^[./a-zA-Z0-9$]+\.\(scss\)' -> '<PROJECT_ROOT>/stub-types/css-module.js'
+
 [strict]

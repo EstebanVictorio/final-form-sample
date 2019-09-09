@@ -1,0 +1,8 @@
+{
+        "Form.greeting": "Hola {name}",
+        "Form.nameLabel": "Nombre:",
+        "Form.lastNameLabel": "Apellido:",
+        "Form.submitButton": "Enviar solicitud",
+        "Form.namePlaceholder": "Tu nombre",
+        "Form.lastNamePlaceholder": "Tus apellidos"
+}
